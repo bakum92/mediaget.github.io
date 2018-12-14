@@ -1,0 +1,2 @@
+Host: bakum92.github.io
+Sitemap: https://bakum92.github.io/mediaget.github.io/mediaget.com/sitemap.xml
