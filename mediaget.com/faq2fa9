@@ -1,0 +1,331 @@
+<!doctype html>
+<html>
+
+<!-- Mirrored from mediaget.com/faq?lang=cz by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Dec 2018 14:58:20 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8"/>
+	<title>MediaGet</title>
+	<meta name="description" content="медиагет.рф, торрент, торрент-клиент, скачать, файлы, фильмы, музыка, faq, вопрос, ответ" />
+	<meta name="keywords" content="" />
+	<link rel="image_src" href="userfiles/images/loc/en/w0.png" />
+	<link rel="stylesheet" type="text/css" href="css/style6b4d.css?1430927629"/>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+	
+	<script type="text/javascript" src="../vkontakte.ru/js/api/sharec20a.html?12"></script>
+	
+	<script>
+	function asyncScript(u, c) {
+    	var d = document, t = 'script',
+        	o = d.createElement(t),
+         	s = d.getElementsByTagName(t)[0];
+     	o.src = '//' + u;
+     	o.async = true;
+     	if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+     	s.parentNode.insertBefore(o, s);
+  }
+	</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-20095956-1', 'auto');
+	  ga('require', 'displayfeatures');
+	  ga('send', 'pageview');
+	</script>
+</head>
+<body>
+<!--[if IE 7]><div class="ie7"><![endif]-->
+<!--[if IE 8]><div class="ie8"><![endif]-->
+<div id="wrap">
+	<div id="head">
+		<a href="index.html" id="logo" title="mediaget">MediaGet</a>
+		<div id="head-count"></div>
+<ul id="head-menu">
+	<li class="nobor"><a href="introduce.html">Знакомство с программой</a></li>
+	<li class=""><a href="help.html">Помощь</a></li>
+	<li class=""><a href="index.html">Скачать</a></li>
+	<li id="lang">
+		<span class="pipka"></span>
+		<a href="#"><img src="userfiles/images/flags/flag-czech.jpg" /> <span class='active'>Český</span></a>
+	<ul>
+		<li><a href="faq2139.html?lang=ru"><img src="userfiles/images/flags/flag-rus.jpg" /> <span>Русский</span></a></li>
+		<li><a href="faq9ed2.html?lang=en"><img src="userfiles/images/flags/flag-british.jpg" /> <span>English</span></a></li>
+		<li><a href="faqc69a.html?lang=es"><img src="userfiles/images/flags/flag-spanish.jpg" /> <span>Español</span></a></li>
+		<li><a href="faqcf53?lang=it"><img src="userfiles/images/flags/flag-italian.jpg" /> <span>Italiano</span></a></li>
+		<li><a href="faqe68f?lang=fr"><img src="userfiles/images/flags/flag-france.jpg" /> <span>Français</span></a></li>
+		<li><a href="faq3322.html?lang=de"><img src="userfiles/images/flags/flag-de.jpg" /> <span>Deutsch</span></a></li>
+		<li><a href="faqe0cd.html?lang=ae"><img src="userfiles/images/flags/flag_arab.jpg" /> <span>العربية</span></a></li>
+		<li><a href="faq2296?lang=tr"><img src="userfiles/images/flags/flag-turkish.jpg" /> <span>Türk</span></a></li>
+		<li><a href="faq923c.html?lang=pt"><img src="userfiles/images/flags/flag-portugal.jpg" /> <span>Português</span></a></li>
+		<li><a href="faq5e26.html?lang=my"><img src="userfiles/images/flags/flag-malaysian.jpg" /> <span>Malay</span></a></li>
+		<li><a href="faqdb38.html?lang=cn"><img src="userfiles/images/flags/flag_china.jpg" /> <span>中国的</span></a></li>
+		<li><a href="faq1f03.html?lang=bg"><img src="userfiles/images/flags/flag_bulgaria.jpg" /> <span>Български</span></a></li>
+		<li><a href="faq0873.html?lang=ua"><img src="userfiles/images/flags/flag_Ukraine.jpg" /> <span>Українська</span></a></li>
+	</ul>
+	<script>
+	/*$(document).ready(function() {
+		$('#lang').hover(function() {
+			if($(this).find('ul').is(':visible')) {
+				$(this).find('ul').delay(1000).hide(0);
+			} else {
+				$(this).find('ul').show();
+			}		
+		});
+	});*/
+</script>
+	</li>
+</ul>	</div>
+	<!--end#head-->
+  <!--popup youtube-->
+  <div class="popy"><div><span></span>          
+          <i class="popyshadow"></i>
+          <div class="videohere" style="position: absolute"></div>
+  </div></div>
+  <!--end .popy-->
+  <div id="content">
+<script type="text/javascript" src="js/support8f14.js?7"></script>
+<script type="text/javascript" src="js/effects.js"></script>
+<div class="content" id="faq-div">
+	<div id="suprt-faq">
+		<div class="back-help"><a href="javascript:void(0)" onclick="back()">Вернуться в раздел помощи</a></div>
+		<h1>Общие вопросы о программе</h1>
+		<h4>Тут собраны все наиболее часто задаваемые вопросы пользователей</h4>
+		<br/>
+		<br/>
+
+		<form id="search" action="#" method="post" name="">
+			<div id="super-enter">
+				<p>Введите сюда ваш вопрос</p>
+				<div class="sf">
+					<span class="sf-l"></span>
+					<input id="keyword" type="text" class="sf-c"/>
+					<span class="sf-r"></span>
+				</div>
+				<div class="cboth"></div>
+				<input type="submit" id="rezult" value="Искать"/>
+			</div>
+		</form>
+		<p class="faq-choose-from-list">или выберите вопрос из списка: </p>
+
+		<ul id="spiski">
+		<li>
+			<a class="faqQuestionA" href="#" name="question-62"><div style="padding-left: 30px; float: left;">Jak hledat programě MediaGet?</div></a>
+			<div class="demon">
+				<div>
+					<div>Hledejte v na&scaron;&iacute; rozděleno do 5 kategori&iacute; (hry, hudba, film, software, v&scaron;echno). Pro upřesněn&iacute; vyhled&aacute;v&aacute;n&iacute; je třeba vybrat př&iacute;slu&scaron;nou č&aacute;st programu. Pokud chcete naj&iacute;t film, pak vyberte v sekci "Video". Nemůžete-li obsahovat soubor na zvl&aacute;&scaron;tn&iacute; odd&iacute;l, použijte "All".</div>				</div>
+			</div>
+		</li>
+		<li>
+			<a class="faqQuestionA" href="#" name="question-63"><div style="padding-left: 30px; float: left;">Mám velmi nízká rychlost stahování, co dělat?</div></a>
+			<div class="demon">
+				<div>
+					<div>Probl&eacute;m n&iacute;zk&eacute; rychlosti může b&yacute;t řada faktorů.<br />1) rychlost internetu. Nemůžete houpačka rychleji než rychlost a umožňuje obsluze.<br />2) Počet "sec&iacute; stroje" - lid&iacute;, distribuci souborů. Někter&eacute; z torrent soubory, nemaj&iacute; sec&iacute; stroje, tj. nemus&iacute;te si jej st&aacute;hnout od nikoho. Toto je rys s&iacute;t&iacute; P2P. Ře&scaron;en&iacute; jsou dvě: Za prv&eacute;, naj&iacute;t jin&yacute; soubor se stejn&yacute;m n&aacute;zvem, ale s lep&scaron;&iacute; um&iacute;stěn&iacute;. Počkejte, rozd&aacute;vat se objev&iacute; v s&iacute;ti a umožn&iacute; v&aacute;m st&aacute;hnout soubor.<br />3) Jděte do "Nastaven&iacute;" - "Advanced Settings" - "připojen&iacute;" a naproti port pro př&iacute;choz&iacute; připojen&iacute;, klepněte na tlač&iacute;tko "n&aacute;hodou". Tato funkce nahrad&iacute; port a budete muset pokračovat v čerp&aacute;n&iacute;.<br />3) Mus&iacute;te si st&aacute;hnout a nainstalovat opravu, mohou b&yacute;t v&scaron;echny instrukce a patch k dispozici na adrese <a href="http://half-open.com/download_ru.htm">http://half-open.com/download_ru.htm</a>. MediaGet program se net&yacute;k&aacute; tento patch, je to jen př&iacute;klad pro ře&scaron;en&iacute; tohoto probl&eacute;mu.</div>				</div>
+			</div>
+		</li>
+		<li>
+			<a class="faqQuestionA" href="#" name="question-64"><div style="padding-left: 30px; float: left;">Co je &quot;Katalog&quot; v programu MediaGet a jak je používat?</div></a>
+			<div class="demon">
+				<div>
+					<div>Katalog na&scaron;eho programu je soubor popisů a uměn&iacute; krytu filmy, hry, hudbu a programy. Najděte si svůj soubor v adres&aacute;ři, můžete j&iacute;t naj&iacute;t tento soubor v na&scaron;em programu. K tomu, dvakr&aacute;t klikněte prav&yacute;m tlač&iacute;tkem my&scaron;i na soubor a se dostanete na v&yacute;sledky hled&aacute;n&iacute;. Zvolte př&iacute;slu&scaron;nou možnost a pak si st&aacute;hnout. Nechceme udržovat tyto soubory v jejich serverech, je to jen knihovna popisů.</div>				</div>
+			</div>
+		</li>
+		<li>
+			<a class="faqQuestionA" href="#" name="question-66"><div style="padding-left: 30px; float: left;">Jak vytvořit soubor v programu?</div></a>
+			<div class="demon">
+				<div>
+					<div>V tlač&iacute;tko "Download" vytvořit soubor. Co jsou trackery a ke vstupu na upřesnit v referenčn&iacute; č&aacute;sti trackerů, se kter&yacute;mi pracujete.</div>				</div>
+			</div>
+		</li>
+		<li>
+			<a class="faqQuestionA" href="#" name="question-67"><div style="padding-left: 30px; float: left;">MediaGet (ne) začíná se systémem, stejně jako já (enable) odpojit?</div></a>
+			<div class="demon">
+				<div>
+					<div>V př&iacute;padě, že by se zapnout / vypnout autostart MediaGet jděte do "Nastaven&iacute;" a za&scaron;krtněte "Spustit s Windows"</div>				</div>
+			</div>
+		</li>
+		<li>
+			<a class="faqQuestionA" href="#" name="question-68"><div style="padding-left: 30px; float: left;">Dal jsem soubory ke stažení, a chci, aby počítač se vypne na konci nakládky, jak to mám udělat?</div></a>
+			<div class="demon">
+				<div>
+					<div>Klikněte prav&yacute;m tlač&iacute;tkem my&scaron;i na ikonu MediaGet v prav&eacute;m doln&iacute;m rohu obrazovky (v Treee), pop-up menu vyberte "Auto" a aktivujte požadovanou položku.</div>				</div>
+			</div>
+		</li>
+		<li>
+			<a class="faqQuestionA" href="#" name="question-69"><div style="padding-left: 30px; float: left;">Stáhnul jsem si film, hry, hudební program, co mám dělat dál?</div></a>
+			<div class="demon">
+				<div>
+					<div>Klikněte na "Download" prav&yacute;m tlač&iacute;tkem my&scaron;i na soubor a otevřete jej ve složce. Postupujte podle typu souboru. Nev&iacute;me, co stahujete, a na tuto v&yacute;zvu, "St&aacute;hnul jsem si hru, jak ho spustit" nen&iacute; v&iacute;t&aacute;na.</div>				</div>
+			</div>
+		</li>
+		<li>
+			<a class="faqQuestionA" href="#" name="question-83"><div style="padding-left: 30px; float: left;">How can I save your program? My antivirus &quot;swears&quot; on it.</div></a>
+			<div class="demon">
+				<div>
+					<div>
+<p><span lang="EN-US">We guarantee that MediaGet does not contain any viruses, "worms", "Trojan horses" or others malware, if you download it from our official site. This confirm by the fact that we are constantly working with leading antivirus vendors that their products are not determined by our program as a virus because the MediaGet isn't virus.</span></p>
+<p><span lang="EN-US">Some antivirus (NOD 32, Kaspersky, Dr Web) can determine MediaGet, as a "potentially unwanted software", but as a rule, this anti-virus software work with many popular programs-downloaders, which is known to be absolutely safe. So all you need for right work, to add MediaGet to the exception list of your antivirus.</span></p>
+</div>				</div>
+			</div>
+		</li>
+		<li>
+			<a class="faqQuestionA" href="#" name="question-84"><div style="padding-left: 30px; float: left;">MediaGet takes too many system resources, even though my computer is pretty powerful. How to reduce the consumption of system resources?</div></a>
+			<div class="demon">
+				<div>
+					<div><span lang="EN">We</span><span lang="EN"> recommend you always use the latest version of MediaGet, because it fixes all known bugs at the moment and it has a full stable. The latest version can always be downloaded from our <a href="index9ed2.html?lang=en">official site</a>.<br /> If the problem persists after updating, you can contact us via the <a href="support.html">feedback form</a> and we will try to help you.</span></div>				</div>
+			</div>
+		</li>
+		<li>
+			<a class="faqQuestionA" href="#" name="question-85"><div style="padding-left: 30px; float: left;">I fear for my personal data. Your program does not steal it?</div></a>
+			<div class="demon">
+				<div>
+					<div><span lang="EN">All</span><span lang="EN"> actions of our program are on the surface, and you can keep track of them. We do not collect, store and do not send any personal data stored on computers. We do not need it. The number of users MediaGet already exceeded 100 millions, and such action on our part would already have known. Do not worry, all is safe!</span></div>				</div>
+			</div>
+		</li>
+		<li>
+			<a class="faqQuestionA" href="#" name="question-86"><div style="padding-left: 30px; float: left;">I often see ads in your program. Why the MediaGet ads anywhere?</div></a>
+			<div class="demon">
+				<div>
+					<div>
+<p><span lang="EN">One of the directions</span><span lang="EN"> of our work - to help the novice Internet users to receive files on your computer. We were joined a large number of partner sites, which allow to obtain the desired content using our program. Tried MediaGet once, most people start to use only our software and visit those sites that has our banners. It&rsquo;s convenient!</span></p>
+</div>				</div>
+			</div>
+		</li>
+		<li>
+			<a class="faqQuestionA" href="#" name="question-87"><div style="padding-left: 30px; float: left;">With the MediaGet set some additional software, toolbars, etc. I do not need it. How can I do not install it?</div></a>
+			<div class="demon">
+				<div>
+					<div><span lang="EN"><span lang="EN">Installation</span> of these programs helps us to remain free, but</span><span lang="EN-US">it is not necessary</span><span lang="EN">. Just carefully read what is written in a dialog box during the MediaGet installation, and remove </span><span lang="EN-US">&laquo;</span><span lang="EN">checkmark</span><span lang="EN-US">s&raquo;</span><span lang="EN">of additional</span><span lang="EN"> programs that you do not want to install.</span></div>				</div>
+			</div>
+		</li>
+		<li>
+			<a class="faqQuestionA" href="#" name="question-88"><div style="padding-left: 30px; float: left;">When the MediaGet is working, the Internet browser pages loading very slowly, even though my internet speed is high enough. What should I do?</div></a>
+			<div class="demon">
+				<div>
+					<div>
+<div class="text ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" style="display: block; overflow: visible; padding-top: 0px; padding-bottom: 0px;">
+<div><span id="result_box" lang="en"><span class="hps">Most likely,</span> <span class="hps">you have</span> <span class="hps">exceeded the</span> <span class="hps">limit of</span> <span class="hps atn">half-</span><span>open connections.</span> <span class="hps">To solve this problem</span><span>, you need to</span> <span class="hps">download and install</span> <span class="hps">special free</span> <span class="hps">patch.</span><br /> <span class="hps">Details -</span> <span class="hps"><a href="patch">here</a>.</span></span></div>
+</div>
+</div>				</div>
+			</div>
+		</li>
+<script>
+if(document.location.hash) {
+	$(document).ready(function() {
+		$("a[name='"+document.location.hash.substring(1)+"']").click();
+	});
+}
+</script>		</ul>
+	</div>
+</div>	</div>
+	<!--end#content-->
+	<div id="footer">
+		<hr class="linetop" />
+		<div id="foo-copy">
+			<h4>MediaGet</h4>
+			<p>Copyright &copy; 2009-2018 MediaGet. Všechna práva vyhrazena.</p>
+		</div>
+    <ul id="foo-menu">
+			<li>
+            	<p class="sub-menu">Оbec</p>
+            	<ul>
+					<li><a href="news.html">Noviny</a></li>
+				</ul>
+			</li>
+			<li>
+            	<p class="sub-menu">Společnost</p>
+            	<ul>
+			<li><a href="privacy.html">Ochrana osobních údajů</a></li>
+			<li><a href="privacy.html">Privacy policy</a></li>
+			<li><a href="about">O nás</a></li>
+			<li><a href="license.html">Licenční smlouva</a></li>
+				</ul>
+			</li>
+			<li>
+            	<p class="sub-menu">Podpora</p>
+            	<ul>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="support.html">Podpůrná služba</a></li>
+			<li><a href="patch">Patch</a></li>
+				</ul>
+			</li>
+			<li>
+				<div style="float: right; width: 25px; height: 25px; color: black; border: 3px solid red; border-radius: 15px; background-color: #fafafa; font-size: 12px; line-height: 25px;">&nbsp;18+</div>
+			</li>
+		</ul>	</div>
+	<!--end#footer-->
+</div>
+<!--end#wrap-->
+<script type="text/javascript" src="js/tiny.js"></script>
+<script type="text/javascript" src="js/buyc81e.js?2"></script>
+<script type="text/javascript" src="js/action.js"></script>
+<script type="text/javascript" src="js/ajax.js"></script>
+<link href="../stg.odnoklassniki.ru/share/odkl_share.html" rel="stylesheet" />
+<script type="text/javascript">
+	(function() {
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		po.src = '../apis.google.com/js/plusone.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	})();
+</script>
+<link href="https://plus.google.com/108814431794338523909" rel="publisher" />
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+	(function (d, w, c) {
+		(w[c] = w[c] || []).push(function() {
+			try {
+				w.yaCounter26119992 = new Ya.Metrika({id:26119992,
+					webvisor:true,
+					clickmap:true,
+					trackLinks:true,
+					accurateTrackBounce:true});
+			} catch(e) { }
+		});
+
+		var n = d.getElementsByTagName("script")[0],
+			s = d.createElement("script"),
+			f = function () { n.parentNode.insertBefore(s, n); };
+		s.type = "text/javascript";
+		s.async = true;
+		s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+		if (w.opera == "[object Opera]") {
+			d.addEventListener("DOMContentLoaded", f, false);
+		} else { f(); }
+	})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="http://mc.yandex.ru/watch/26119992" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Traffic tracking code -->
+<script type="text/javascript">
+    (function(w, p) {
+        var a, s;
+        (w[p] = w[p] || []).push({
+            counter_id: 388973420
+        });
+        a = document.createElement('script'); a.type = 'text/javascript'; a.async = true;
+        a.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'autocontext.begun.ru/analytics.js';
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(a, s);
+    })(window, 'begun_analytics_params');
+</script>
+<script type="text/javascript" async="async" src="http://track.revolvermarketing.ru/pixel?id=29156&amp;type=js"></script>
+<script type="text/javascript">
+    window._rtbms = window._rtbms || [];
+    window._rtbms.push({"id": "3000F117"});
+    (function(r, s) {
+        r = document.createElement('script'); r.type = 'text/javascript'; r.async = true;
+        r.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'track.rtb-media.ru/rtbm.js';
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(r, s);
+    })();
+</script>
+<noscript><img src="../display.intencysrv.com/match/http_/track.rtb-media.ru/cnysINTddef.gif"/></noscript>
+<img width="1" height="1" id="rtb_pixel" />
+</body>
+
+<!-- Mirrored from mediaget.com/faq?lang=cz by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Dec 2018 14:58:20 GMT -->
+</html>

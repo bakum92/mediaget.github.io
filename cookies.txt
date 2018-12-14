@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+mediaget.com	TRUE	/	FALSE	1999999999	PHPSESSID	d4fc08d018f368cbf0a0e0985f21fd8e
+.google.com	TRUE	/	FALSE	1999999999	NID	150=hozebrKlevaxx6_Z37o2akuOkMpxyT3T3bMfwyP83AnQ62R3YF2kMqEslfHmWtqNQmgvyyzdZORZ4F313iK9PACjLuP5b0O0NBh4q2uPIbbBsCmsMhp8f-c972A2kPcqJe-W5S2ONW5AaguNKuoLQglKJCf9FLxSsC4Jw8LUVEk
+track.rtb-media.ru	TRUE	/	FALSE	1999999999	_rtbmedia	be693b40ffae11e8911c97f98adec0e3
+track.rtb-media.ru	TRUE	/	FALSE	1999999999	_rtbmedia_sync	INT1%3D1
+mediaget.com	TRUE	/	FALSE	1999999999	user_loc	pt
+

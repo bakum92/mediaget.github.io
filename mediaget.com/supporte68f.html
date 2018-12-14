@@ -1,0 +1,594 @@
+<!doctype html>
+<html>
+
+<!-- Mirrored from mediaget.com/support?lang=fr by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Dec 2018 14:53:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8"/>
+	<title>MediaGet</title>
+	<meta name="description" content="медиагет.рф, торрент, торрент-клиент, скачать, файлы, фильмы, музыка, служба поддержки, задать вопрос, обратная связь" />
+	<meta name="keywords" content="" />
+	<link rel="image_src" href="userfiles/images/loc/en/w0.png" />
+	<link rel="stylesheet" type="text/css" href="css/style6b4d.css?1430927629"/>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+	
+	<script type="text/javascript" src="../vkontakte.ru/js/api/sharec20a.html?12"></script>
+	
+	<script>
+	function asyncScript(u, c) {
+    	var d = document, t = 'script',
+        	o = d.createElement(t),
+         	s = d.getElementsByTagName(t)[0];
+     	o.src = '//' + u;
+     	o.async = true;
+     	if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+     	s.parentNode.insertBefore(o, s);
+  }
+	</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-20095956-1', 'auto');
+	  ga('require', 'displayfeatures');
+	  ga('send', 'pageview');
+	</script>
+</head>
+<body>
+<!--[if IE 7]><div class="ie7"><![endif]-->
+<!--[if IE 8]><div class="ie8"><![endif]-->
+<div id="wrap">
+	<div id="head">
+		<a href="index.html" id="logo" title="mediaget">MediaGet</a>
+		<div id="head-count"></div>
+<ul id="head-menu">
+	<li class="nobor"><a href="introduce.html">Apprendre à connaître</a></li>
+	<li class=""><a href="help.html">Assistance</a></li>
+	<li class=""><a href="index.html">Télécharger</a></li>
+	<li id="lang">
+		<span class="pipka"></span>
+		<a href="#"><img src="userfiles/images/flags/flag-france.jpg" /> <span class='active'>Français</span></a>
+	<ul>
+		<li><a href="support2139.html?lang=ru"><img src="userfiles/images/flags/flag-rus.jpg" /> <span>Русский</span></a></li>
+		<li><a href="support9ed2?lang=en"><img src="userfiles/images/flags/flag-british.jpg" /> <span>English</span></a></li>
+		<li><a href="supportc69a.html?lang=es"><img src="userfiles/images/flags/flag-spanish.jpg" /> <span>Español</span></a></li>
+		<li><a href="supportcf53.html?lang=it"><img src="userfiles/images/flags/flag-italian.jpg" /> <span>Italiano</span></a></li>
+		<li><a href="support3322.html?lang=de"><img src="userfiles/images/flags/flag-de.jpg" /> <span>Deutsch</span></a></li>
+		<li><a href="support2fa9.html?lang=cz"><img src="userfiles/images/flags/flag-czech.jpg" /> <span>Český</span></a></li>
+		<li><a href="supporte0cd.html?lang=ae"><img src="userfiles/images/flags/flag_arab.jpg" /> <span>العربية</span></a></li>
+		<li><a href="support2296.html?lang=tr"><img src="userfiles/images/flags/flag-turkish.jpg" /> <span>Türk</span></a></li>
+		<li><a href="support923c.html?lang=pt"><img src="userfiles/images/flags/flag-portugal.jpg" /> <span>Português</span></a></li>
+		<li><a href="support5e26.html?lang=my"><img src="userfiles/images/flags/flag-malaysian.jpg" /> <span>Malay</span></a></li>
+		<li><a href="supportdb38.html?lang=cn"><img src="userfiles/images/flags/flag_china.jpg" /> <span>中国的</span></a></li>
+		<li><a href="support1f03.html?lang=bg"><img src="userfiles/images/flags/flag_bulgaria.jpg" /> <span>Български</span></a></li>
+		<li><a href="support0873.html?lang=ua"><img src="userfiles/images/flags/flag_Ukraine.jpg" /> <span>Українська</span></a></li>
+	</ul>
+	<script>
+	/*$(document).ready(function() {
+		$('#lang').hover(function() {
+			if($(this).find('ul').is(':visible')) {
+				$(this).find('ul').delay(1000).hide(0);
+			} else {
+				$(this).find('ul').show();
+			}		
+		});
+	});*/
+</script>
+	</li>
+</ul>	</div>
+	<!--end#head-->
+  <!--popup youtube-->
+  <div class="popy"><div><span></span>          
+          <i class="popyshadow"></i>
+          <div class="videohere" style="position: absolute"></div>
+  </div></div>
+  <!--end .popy-->
+  <div id="content">
+<script type="text/javascript" src="js/support8f14.js?7"></script>
+<script type="text/javascript" src="js/effects.js"></script>
+<script>
+function submitTicket() {
+	$("#nice-form").ajaxSubmit({
+		beforeSubmit: function(formData, jqForm, options) {
+			// If this is technical or general question
+			var currentCatIndex = $('#department-select > option:checked').index();
+			if (currentCatIndex === 0 || currentCatIndex === 1) {
+				formData.push({name: 'addClientInfo', value: 1 });
+			}
+		},
+
+		success: function(data) {
+			if(data.substring(0, "error:".length) == "error:") {
+				alert(data.substring("error:".length));
+				return false;
+			} else {
+				$("#supportFormContents").html(data);
+			}
+		}
+	});
+}
+</script>
+<script type="text/javascript" src="js/jquery.form.js"></script>
+<div class="content" id="contacts-div">
+	<div id="suprt">
+		<div class="back-help support"><a href="help.html">Retour au section d'Assistance</a></div>
+		<div id="supportFormContents">
+		<h1>Service de support</h1>
+		<h4>Si vous avez une question s'il vous plaît remplir le formulaire ci-dessou.</h4>
+		<br/>
+		<br/>
+		<br/>
+		<p class="faq-sup">Pour identifier les solutions les plus appropriées ,S'il vous plaît ,Veuillez fournir une description détaillée de votre demande de support,<br/> Version du programme, Système d'exploitation, Nom de l'antivirus utilisé, et les captures d'écran ci-jointes.</p>
+
+		<form id="nice-form" method="post" action="http://mediaget.com/action.php" enctype="multipart/form-data" name="nice">
+<input type="hidden" id="actionType" name="actionType" value="FeedbackAjaxAction">
+<input type="hidden" id="method" name="method" value="sendFeedback">
+<input type="hidden" id="mandatory" name="mandatory" value="department, name, message, email">
+<input type="hidden" id="returnPath" name="returnPath" value="/support?lang=fr">
+			<div class="nice-l">
+				<label>Catégorie:<span class="errors">Sélectionnez une catégorie</span></label>
+				<!-- hidden select -->
+				<select name="department" class="hide" id="department-select">
+										<option value="13">Common questions</option>
+										<option value="14">Technical questions</option>
+										<option value="15">Advertising</option>
+								</select>
+
+				<!--mutliSel-->
+				<div class="multiSel">
+
+					<div class="nice-kat">
+						<span class="ni-l"></span>
+						<input type="text" id="selkat" class="ni-c" value="" disabled="disabled" readonly="readonly" />
+						<span class="ni-r"></span><span class="chek"></span>
+					</div>
+					<div class="cboth"></div>
+
+					<div class="sel-kat selectBox">
+							<p id="dep-13">Common questions</p>
+							<p id="dep-14">Technical questions</p>
+							<p id="dep-15">Advertising</p>
+				</div>
+				</div>
+				<!--end multiSel-->
+
+				<div class="subject" style="display: block">
+				<label>Thème: *</label>
+				<div class="nice-input">
+					<span class="ni-l"></span>
+						<input type="text" name="subject" value="" class="ni-c">
+					<span class="ni-r"></span>
+				</div>
+				<div class="cboth"></div>
+				</div>
+
+				<!-- <vacancy select> -->
+				<div class="vacancies" style="display: none">
+					<label>Вакансия: *</label>
+					<!-- hidden vacancy select -->
+					<select name="vacancy" class="hide" id="vacancy-select">
+					</select>
+					<div class="multiSel" style="z-index: 9;">
+						<div class="nice-vacancy">
+							<span class="ni-l"></span>
+							<input type="text" id="sel_vacancy" class="ni-c" value="" disabled="disabled" readonly="readonly" />
+							<span class="ni-r"></span><span class="chek-vacancy"></span>
+						</div>
+						<div class="cboth"></div>
+
+						<div class="sel-vacancy selectBox">
+						</div>
+					</div>
+				</div>
+				<!-- </vacancy select> -->
+				
+				<label>Votre prénom: *</label>
+				<div class="nice-input">
+					<span class="ni-l"></span>
+						<input type="text" name="name" value="" class="ni-c">
+					<span class="ni-r"></span>
+				</div>
+				<div class="cboth"></div>
+
+				<label>Votre E-mail: *<span class="errors">Entrez un E-mail valide</span></label>
+				<div class="nice-input">
+					<span class="ni-l"></span>
+						<input type="text" name="email" value="" class="ni-c" id="mail">
+					<span class="ni-r"></span></div>
+				<div class="cboth"></div>
+
+				<div class="tech-inputs">
+					<label title="Версия указана в левом нижнем углу программы">Version MediaGet: <span class="errors">Précisez la version du MediaGet</span></label>
+					<div class="nice-input" title="Версия указана в левом нижнем углу программы">
+						<span class="ni-l"></span>
+							<input type="text" name="version" value="" class="ni-c" id="version">
+						<span class="ni-r"></span>
+					</div>
+					<div class="cboth"></div>
+
+					<label>Système d'exploitation: <div class="errors">Indiquez votre système d'exploitation</div></label>
+					<!-- hidden os select -->
+					<select name="os" class="hide" id="os-select">
+						<option id="Windows XP SP1 x86 (х32)">Windows XP SP1 x86 (х32)</option>
+						<option id="Windows XP SP1 x64">Windows XP SP1 x64</option>
+						<option id="Windows XP SP2 x86 (х32)">Windows XP SP2 x86 (х32)</option>
+						<option id="Windows XP SP2 x64">Windows XP SP2 x64</option>
+						<option id="Windows XP SP3 x86 (х32)">Windows XP SP3 x86 (х32)</option>
+						<option id="Windows XP SP3 x64">Windows XP SP3 x64</option>
+						<option id="Vista x86 (х32)">Vista x86 (х32)</option>
+						<option id="Vista x64">Vista x64</option>
+						<option id="Vista SP1 x86 (х32)">Vista SP1 x86 (х32)</option>
+						<option id="Vista SP1 x64">Vista SP1 x64</option>
+						<option id="Windows 7 beta x86 (х32)">Windows 7 beta x86 (х32)</option>
+						<option id="Windows 7 beta x64">Windows 7 beta x64</option>
+						<option id="Windows 7 x86 (х32)">Windows 7 x86 (х32)</option>
+						<option id="Windows 7 x64">Windows 7 x64</option>
+						<option id="Windows 8 х86 (х32)">Windows 8 х86 (х32)</option>
+						<option id="Windows 8 х64">Windows 8 х64</option>
+						<option id="Windows 10">Windows 10</option>
+						<option id="Mac OS 10.6">Mac OS 10.6</option>
+						<option id="Mac OS 10.7">Mac OS 10.7</option>
+						<option id="Mac OS 10.8">Mac OS 10.8</option>
+						<option id="Android">Android</option>
+						<option id="Ne sais pas">Ne sais pas</option>
+					</select>
+					<div class="multiSel">
+						<div class="nice-os">
+							<span class="ni-l"></span>
+							<input type="text" id="sel_os" class="ni-c" value="" disabled="disabled" readonly="readonly" />
+							<span class="ni-r"></span><span class="chek-os"></span>
+						</div>
+						<div class="cboth"></div>
+						<div class="sel-os selectBox">
+							<p id="os-Windows XP SP1 x86 (х32)">Windows XP SP1 x86 (х32)</p>
+							<p id="os-Windows XP SP1 x64">Windows XP SP1 x64</p>
+							<p id="os-Windows XP SP2 x86 (х32)">Windows XP SP2 x86 (х32)</p>
+							<p id="os-Windows XP SP2 x64">Windows XP SP2 x64</p>
+							<p id="os-Windows XP SP3 x86 (х32)">Windows XP SP3 x86 (х32)</p>
+							<p id="os-Windows XP SP3 x64">Windows XP SP3 x64</p>
+							<p id="os-Vista x86 (х32)">Vista x86 (х32)</p>
+							<p id="os-Vista x64">Vista x64</p>
+							<p id="os-Vista SP1 x86 (х32)">Vista SP1 x86 (х32)</p>
+							<p id="os-Vista SP1 x64">Vista SP1 x64</p>
+							<p id="os-Windows 7 beta x86 (х32)">Windows 7 beta x86 (х32)</p>
+							<p id="os-Windows 7 beta x64">Windows 7 beta x64</p>
+							<p id="os-Windows 7 x86 (х32)">Windows 7 x86 (х32)</p>
+							<p id="os-Windows 7 x64">Windows 7 x64</p>
+							<p id="os-Windows 8 х86 (х32)">Windows 8 х86 (х32)</p>
+							<p id="os-Windows 8 х64">Windows 8 х64</p>
+							<p id="os-Windows 10">Windows 10</p>
+							<p id="os-Mac OS 10.6">Mac OS 10.6</p>
+							<p id="os-Mac OS 10.7">Mac OS 10.7</p>
+							<p id="os-Mac OS 10.8">Mac OS 10.8</p>
+							<p id="os-Android">Android</p>
+							<p id="os-Ne sais pas">Ne sais pas</p>
+						</div>
+					</div>
+					<label>Antivirus: <div class="errors">Nom de l'Antivirus utilisé</div></label>
+					<!-- hidden antivirus select -->
+					<select name="antivirus" class="hide" id="antivirus-select">
+						<option value="No antivirus">No antivirus</option>
+						<option value="Avast">Avast</option>
+						<option value="AVG Anti-Virus">AVG Anti-Virus</option>
+						<option value="Avira">Avira</option>
+						<option value="Baidu">Baidu</option>
+						<option value="BitDefender">BitDefender</option>
+						<option value="Comodo">Comodo</option>
+						<option value="ESET NOD32">ESET NOD32</option>
+						<option value="Kaspersky Internet Security">Kaspersky Internet Security</option>
+						<option value="McAfee">McAfee</option>
+						<option value="Microsoft Security Essentials">Microsoft Security Essentials</option>
+						<option value="Norton Internet Security">Norton Internet Security</option>
+						<option value="Panda Security">Panda Security</option>
+						<option value="Symantec">Symantec</option>
+						<option value="Trend">Trend</option>
+						<option value="Web">Web</option>
+						<option value="Zillya">Zillya</option>
+						<option value="No in list">Not on the list</option>
+						<!-- 
+						<option value="Ad-Aware Free Antivirus">Ad-Aware Free Antivirus</option>
+						<option value="Agnitum">Agnitum</option>
+						<option value="ALWIL Software">ALWIL Software</option>
+						<option value="ArcaBit">ArcaBit</option>
+						<option value="Anti-Trojan Shield">Anti-Trojan Shield</option>
+						<option value="AntiVir">AntiVir</option>
+						<option value="Beijing Rising International">Beijing Rising International</option>
+						<option value="BullGuard">BullGuard</option>
+						<option value="Check Point">Check Point</option>
+						<option value="Clam AntiVirus">Clam AntiVirus</option>
+						<option value="Crawler">Crawler</option>
+						<option value="Doctor Web">Doctor Web</option>
+						<option value="e-Scan">e-Scan</option>
+						<option value="Emsisoft Anti-Malware">Emsisoft Anti-Malware</option>
+						<option value="F-Prot">F-Prot</option>
+						<option value="F-Secure">F-Secure</option>
+						<option value="G DATA Software AG">G DATA Software AG</option>
+						<option value="Javacool Software">Javacool Software</option>
+						<option value="Lavasoft">Lavasoft</option>
+						<option value="MicroWorld Technologies Inc">MicroWorld Technologies Inc</option>
+						<option value="Nano AntiVirus">Nano AntiVirus</option>
+						<option value="Norman">Norman</option>
+						<option value="Online Solutions Security">Online Solutions Security</option>
+						<option value="Outpost Security Suite Free">Outpost Security Suite Free</option>
+						<option value="PC Tools">PC Tools</option>
+						<option value="Safe'n'Sec">Safe'n'Sec</option>
+						<option value="Simply Super Software">Simply Super Software</option>
+						<option value="SoftSphere Technologies">SoftSphere Technologies</option>
+						<option value="SoftWin">SoftWin</option>
+						<option value="Sophos Plc.">Sophos Plc.</option>
+						<option value="Sunbelt Software">Sunbelt Software</option>
+						<option value="Total Defense AntiVirus">Total Defense AntiVirus</option>
+						<option value="Webroot">Webroot</option>
+						<option value="ZoneAlarm Internet Security">ZoneAlarm Internet Security</option>
+						-->
+					</select>
+					<div class="multiSel" style="z-index: 9;">
+						<div class="nice-antivirus">
+							<span class="ni-l"></span>
+							<input type="text" id="sel_antivirus" class="ni-c" value="" disabled="disabled" readonly="readonly" />
+							<span class="ni-r"></span><span class="chek-antivirus"></span>
+						</div>
+						<div class="cboth"></div>
+
+						<div class="sel-antivirus selectBox">
+							<p id="No antivirus">No antivirus</p>
+							<p id="Avast">Avast</p>
+							<p id="AVG Anti-Virus">AVG Anti-Virus</p>
+							<p id="Avira">Avira</p>
+							<p id="Baidu">Baidu</p>
+							<p id="BitDefender">BitDefender</p>
+							<p id="Comodo">Comodo</p>
+							<p id="ESET NOD32">ESET NOD32</p>
+							<p id="Kaspersky Internet Security">Kaspersky Internet Security</p>
+							<p id="McAfee">McAfee</p>
+							<p id="Microsoft Security Essentials">Microsoft Security Essentials</p>
+							<p id="Norton Internet Security">Norton Internet Security</p>
+							<p id="Panda Security">Panda Security</p>
+							<p id="Symantec">Symantec</p>
+							<p id="Trend">Trend</p>
+							<p id="Web">Web</p>
+							<p id="Zillya">Zillya</p>
+							<p id="No in list">Not on the list</option>
+							<!-- 
+							<p id="antivirus-Ad-Aware Free Antivirus">Ad-Aware Free Antivirus</p>
+							<p id="antivirus-Agnitum">Agnitum</p>
+							<p id="antivirus-ALWIL Software">ALWIL Software</p>
+							<p id="antivirus-ArcaBit">ArcaBit</p>
+							<p id="antivirus-Anti-Trojan Shield">Anti-Trojan Shield</p>
+							<p id="antivirus-AntiVir">AntiVir</p>
+							<p id="antivirus-AVG Anti-Virus">AVG Anti-Virus</p>
+							<p id="antivirus-Avast">Avast</p>
+							<p id="antivirus-Avira">Avira</p>
+							<p id="antivirus-Beijing Rising International">Beijing Rising International</p>
+							<p id="antivirus-BitDefender">BitDefender</p>
+							<p id="antivirus-BullGuard">BullGuard</p>
+							<p id="antivirus-Check Point">Check Point</p>
+							<p id="antivirus-Clam AntiVirus">Clam AntiVirus</p>
+							<p id="antivirus-Comodo">Comodo</p>
+							<p id="antivirus-Crawler">Crawler</p>
+							<p id="antivirus-Doctor Web">Doctor Web</p>
+							<p id="antivirus-e-Scan">e-Scan</p>
+							<p id="antivirus-Emsisoft Anti-Malware">Emsisoft Anti-Malware</p>
+							<p id="antivirus-ESET NOD32">ESET NOD32</p>
+							<p id="antivirus-F-Prot">F-Prot</p>
+							<p id="antivirus-F-Secure">F-Secure</p>
+							<p id="antivirus-G DATA Software AG">G DATA Software AG</p>
+							<p id="antivirus-Javacool Software">Javacool Software</p>
+							<p id="antivirus-Kaspersky Internet Security">Kaspersky Internet Security</p>
+							<p id="antivirus-Lavasoft">Lavasoft</p>
+							<p id="antivirus-McAfee">McAfee</p>
+							<p id="antivirus-Microsoft Security Essentials">Microsoft Security Essentials</p>
+							<p id="antivirus-MicroWorld Technologies Inc">MicroWorld Technologies Inc</p>
+							<p id="antivirus-Nano AntiVirus">Nano AntiVirus</p>
+							<p id="antivirus-Norman">Norman</p>
+							<p id="antivirus-Norton Internet Security">Norton Internet Security</p>
+							<p id="antivirus-Online Solutions Security">Online Solutions Security</p>
+							<p id="antivirus-Outpost Security Suite Free">Outpost Security Suite Free</p>
+							<p id="antivirus-Panda Security">Panda Security</p>
+							<p id="antivirus-PC Tools">PC Tools</p>
+							<p id="antivirus-Safe'n'Sec">Safe'n'Sec</p>
+							<p id="antivirus-Simply Super Software">Simply Super Software</p>
+							<p id="antivirus-SoftSphere Technologies">SoftSphere Technologies</p>
+							<p id="antivirus-SoftWin">SoftWin</p>
+							<p id="antivirus-Sophos Plc.">Sophos Plc.</p>
+							<p id="antivirus-Sunbelt Software">Sunbelt Software</p>
+							<p id="antivirus-Total Defense AntiVirus">Total Defense AntiVirus</p>
+							<p id="antivirus-Trend Micro">Trend Micro</p>
+							<p id="antivirus-Webroot">Webroot</p>
+							<p id="antivirus-ZoneAlarm Internet Security">ZoneAlarm Internet Security</p>
+							-->
+						</div>
+					</div>
+				</div>
+
+				<label id="attachment-file-label">Joindre un fichier: <b class="fil">(jpg, png, gif)</b></label>
+				<label id="attachment-cv-label" style="display: none;">Ваше резюме: *<b class="fil">(doc, docx, rtf, txt, pdf)</b></label>
+				<div class="nice-input">
+					<span class="ni-l"></span>
+					<input id="attachment" type="file" size="38" class="ni-c-f" name="screenshot" value="" />
+					<span class="ni-r"></span>
+
+					<div class="fonTypeFile"></div>
+					<input type="text" class="inputFileVal" readonly="readonly" id="fileName" />
+					<div class="butfile">choisir</div></div>
+				<div class="cboth"></div>
+				
+									<label>Code on the image: *</label>
+					<div class="cboth"></div>
+					<div class="nice-input" style="z-index: 0;">
+						<span class="ni-l"></span>
+						<input type="text" class="ni-c" name="code">
+						<span class="ni-r"></span>
+						<img src="captcha/securimage/securimage_show6bbd.png?sid=fba8d4051e1eee1b6f68a751483ba6bf" style="margin-top: 5px; margin-left: 60px;">
+					</div>
+							</div>
+			<div class="nice-r">
+				<label id="message-default-label">Message: *</label>
+				<label id="message-cv-label" style="display: none;">Сопроводительное письмо: *</label>
+					<textarea  name="message" class="messa"></textarea>
+			</div>
+			<button type="button" class="nice-submit"><span class="sub-l"></span><span class="sub-c">Envoyer</span><span class="sub-r"></span></button>
+			<div class="cboth"></div>
+		</form>
+<script>
+	$(document).ready(function() {
+		$('.nice-submit').click(function(e) {
+			//e.preventDefault();
+
+			var cat = $("#selkat").val();
+			var name = $("input[name='name']").val();
+			var email = $("input[name='email']").val();
+			var message = $("textarea[name='message']").val();
+			var subject = $("input[name='subject']").val();
+
+			var version = $("#version").val();
+			var os = $('#sel_os').val();
+			var antivirus = $('#sel_antivirus').val();
+			var vacancy = $('#sel_vacancy').val();
+
+			var currentCatIndex = $('#department-select > option:checked').index();
+
+			if (!checkFileSize()) {
+				alert("Le fichier est trop grand pour le systeme de fichier de destination!");
+				return false;
+			}
+
+// 			if ((currentCatIndex === 0 || currentCatIndex === 1) && (!version || !os || !antivirus)) {
+//				alert(" Vous n\'avez pas rempli tous les champs obligatoires !");
+// 				return false;
+// 			}
+
+			if (currentCatIndex === 3 && !vacancy || currentCatIndex != 3 && !subject) {
+				alert(" Vous n\'avez pas rempli tous les champs obligatoires !");
+				return false;
+			}
+
+			if (!checkEmail()) {
+				alert("Неверный e-mail!");
+				return false;
+			}
+
+			if (cat && name && email && message) {
+				if(submitTicket()) {
+					$(this).unbind('click');
+					$(this).css('opacity', '0.3');
+				}
+
+				return true;
+			} else {
+				alert(" Vous n\'avez pas rempli tous les champs obligatoires !");
+				return false;
+			}
+		});
+	});
+</script>		</div>
+</div>	</div>
+	<!--end#content-->
+	<div id="footer">
+		<hr class="linetop" />
+		<div id="foo-copy">
+			<h4>MediaGet</h4>
+			<p>Copyright &copy; 2009-2018 MediaGet. Tous les droits sont réservés</p>
+		</div>
+    <ul id="foo-menu">
+			<li>
+            	<p class="sub-menu">Сommunauté</p>
+            	<ul>
+					<li><a href="news.html">Actualités</a></li>
+				</ul>
+			</li>
+			<li>
+            	<p class="sub-menu">Compagnie</p>
+            	<ul>
+			<li><a href="privacy.html">Politique de confidentialité</a></li>
+			<li><a href="about">Présentation de la compagnie</a></li>
+			<li><a href="license.html">Accord de licence</a></li>
+				</ul>
+			</li>
+			<li>
+            	<p class="sub-menu">Soutien</p>
+            	<ul>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="support.html">Service de soutien</a></li>
+				</ul>
+			</li>
+			<li>
+				<div style="float: right; width: 25px; height: 25px; color: black; border: 3px solid red; border-radius: 15px; background-color: #fafafa; font-size: 12px; line-height: 25px;">&nbsp;18+</div>
+			</li>
+		</ul>	</div>
+	<!--end#footer-->
+</div>
+<!--end#wrap-->
+<script type="text/javascript" src="js/tiny.js"></script>
+<script type="text/javascript" src="js/buyc81e.js?2"></script>
+<script type="text/javascript" src="js/action.js"></script>
+<script type="text/javascript" src="js/ajax.js"></script>
+<link href="../stg.odnoklassniki.ru/share/odkl_share.html" rel="stylesheet" />
+<script type="text/javascript">
+	(function() {
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		po.src = '../apis.google.com/js/plusone.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	})();
+</script>
+<link href="https://plus.google.com/108814431794338523909" rel="publisher" />
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+	(function (d, w, c) {
+		(w[c] = w[c] || []).push(function() {
+			try {
+				w.yaCounter26119992 = new Ya.Metrika({id:26119992,
+					webvisor:true,
+					clickmap:true,
+					trackLinks:true,
+					accurateTrackBounce:true});
+			} catch(e) { }
+		});
+
+		var n = d.getElementsByTagName("script")[0],
+			s = d.createElement("script"),
+			f = function () { n.parentNode.insertBefore(s, n); };
+		s.type = "text/javascript";
+		s.async = true;
+		s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+		if (w.opera == "[object Opera]") {
+			d.addEventListener("DOMContentLoaded", f, false);
+		} else { f(); }
+	})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="http://mc.yandex.ru/watch/26119992" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Traffic tracking code -->
+<script type="text/javascript">
+    (function(w, p) {
+        var a, s;
+        (w[p] = w[p] || []).push({
+            counter_id: 388973420
+        });
+        a = document.createElement('script'); a.type = 'text/javascript'; a.async = true;
+        a.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'autocontext.begun.ru/analytics.js';
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(a, s);
+    })(window, 'begun_analytics_params');
+</script>
+<script type="text/javascript" async="async" src="http://track.revolvermarketing.ru/pixel?id=29156&amp;type=js"></script>
+<script type="text/javascript">
+    window._rtbms = window._rtbms || [];
+    window._rtbms.push({"id": "3000F117"});
+    (function(r, s) {
+        r = document.createElement('script'); r.type = 'text/javascript'; r.async = true;
+        r.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'track.rtb-media.ru/rtbm.js';
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(r, s);
+    })();
+</script>
+<noscript><img src="../display.intencysrv.com/match/http_/track.rtb-media.ru/cnysINTddef.gif"/></noscript>
+<img width="1" height="1" id="rtb_pixel" />
+</body>
+
+<!-- Mirrored from mediaget.com/support?lang=fr by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Dec 2018 14:53:00 GMT -->
+</html>

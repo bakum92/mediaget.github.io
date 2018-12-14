@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from cdn.connect.mail.ru/js/loader.js by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Dec 2018 14:47:03 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf8" /><!-- /Added by HTTrack -->
+<head>
+    <title>services</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            /*font-family: Roboto, Arial, Helvetica, sans-serif;*/
+            font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            background: url('../../static.lanet.ua/images/block_ru/services.png') top no-repeat;
+            background-size: cover;
+            max-height: 100%;
+        }
+        
+         ::-webkit-scrollbar {
+            width: 0;
+        }
+        
+        .layout {
+            width: 1310px;
+            margin: 0 auto;
+        }
+        
+        .header-inner {
+            min-height: 28px;
+            padding-top: 21px;
+            padding-left: 2px;
+        }
+        
+        .logo {
+            background: url('../../static.lanet.ua/images/block_ru/logo.png') left center no-repeat;
+            background-size: cover;
+            height: 24px;
+            width: 172px;
+        }
+        
+        .color-overlay {
+            position: absolute;
+            background: rgba(255, 255, 255, .15);
+            margin-top: 35px;
+            height: 880px;
+            width: 100%;
+        }
+        
+        .layout-position {
+            width: 1270px;
+            margin: 0 auto;
+        }
+        
+        .social-inner {
+            padding-top: 84px;
+            padding-bottom: 72px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        .block {
+            position: relative;
+            display: inline-block;
+            width: 304px;
+            height: 376px;
+            border-radius: 2px;
+            /*box-shadow: 0px 0px 26px #505050;*/
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+            background-color: #fff;
+            transform: scale(1, 1);
+            transition: transform 255ms ease;
+            margin-bottom: 16px;
+            margin-right: 16px;
+            filter: saturate(.1);
+        }
+        
+        .block a {
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+        .block p {
+            margin: 0;
+            font-size: 24px;
+            padding: 0;
+            color: #000;
+        }
+        
+        .block p.title {
+            padding: 14px 0 0 24px;
+            font-size: 45px;
+            font-weight: 300;
+        }
+        
+        .block p.footer {
+            padding: 0 24px 24px;
+        }
+        
+        .block img {
+            display: block;
+            margin: auto;
+        }
+        
+        .block:nth-child(3) img {
+            -webkit-filter: invert(0);
+            filter: invert(0);
+        }
+        
+        .block:nth-last-child(2) img,
+        .block:nth-last-child(3) img,
+        .block:nth-last-child(5) img {
+            -webkit-filter: invert(.6);
+            filter: invert(.6);
+        }
+        
+        .block:hover {
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+            z-index: 1;
+            transform: translateY(14px) scale(1.1, 1.11);
+            filter: saturate(1);
+            -ms-filter: saturate(1);
+            transition: all 255ms ease;
+        }
+        
+        .block:hover img {
+            -ms-filter: invert(0);
+            filter: invert(0);
+        }
+        
+        .block.facebook:hover {
+            background-color: #1f4a8b;
+        }
+        
+        .block.zillya:hover {
+            background-color: #4dd0e1;
+        }
+        
+        .block.soundcloud:hover {
+            background-color: #ef6c00;
+        }
+        
+        .block.google img {
+            border-radius: 50%;
+        }
+        
+        .block.ukrnet:hover {
+            background-color: #1565c0;
+        }
+        
+        .block.edisk:hover {
+            background-color: #7986cb;
+        }
+        
+        .block.edisk:hover p,
+        .block.gmail:hover p,
+        .block.ukrnet:hover p,
+        .block.soundcloud:hover p,
+        .block.facebook:hover p {
+            color: #fff;
+        }
+        
+        .block.gdisk:hover p,
+        .block.google:hover p {
+            color: #000;
+        }
+        
+        .block.google:hover {
+            background-color: #f3f3f3;
+        }
+        
+        .block.gmail:hover {
+            background-color: #e57373;
+        }
+        
+        .block.gdisk:hover {
+            background-color: #f2f2f2;
+        }
+        
+        span {
+            position: absolute;
+            text-align: left;
+            width: 290px;
+            bottom: 0;
+            font-size: 16px;
+            font-stretch: condensed;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+            color: #000;
+            -webkit-transition: all 250ms ease-in;
+            -moz-transition: all 250ms ease-in;
+            transition: all 250ms ease-in;
+        }
+        
+        div.block:nth-child(4n) {
+            margin-right: 0px;
+        }
+        
+        .text-content {
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .text-content-inner {
+            position: relative;
+            line-height: 42px;
+            margin-top: 168px;
+            font-weight: 300;
+        }
+        
+        p {
+            font-size: 1.565em;
+            padding-top: 16px;
+        }
+        
+        p.main-text {
+            font-size: 2.11em;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .text-content-button {
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+        
+        .text-content-button {
+            min-height: 242px;
+        }
+        
+        .text-content-button a {
+            outline: none;
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .button {
+            font-size: 2.1em;
+            background-color: #ff6f00;
+            padding: 16px 72px;
+            border-radius: 3px;
+            box-shadow: 4px 4px 12px #505050;
+            color: #fff;
+            border: none;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .button:hover {
+            box-shadow: 10px 10px 20px #505050;
+            cursor: pointer;
+        }
+        
+        .footer-space {
+            height: 240px;
+        }
+        
+        button:after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 5px;
+            height: 5px;
+            background: rgba(255, 255, 255, .5);
+            opacity: 0;
+            border-radius: 100%;
+            transform: scale(1, 1) translate(-50%);
+            transform-origin: 50% 50%;
+        }
+        
+        @keyframes ripple {
+            0% {
+                transform: scale(0, 0);
+                opacity: 1;
+            }
+            20% {
+                transform: scale(25, 25);
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+                transform: scale(40, 40);
+            }
+        }
+        
+        button:focus:not(:active)::after {
+            animation: ripple 1s ease-out;
+        }
+        /*Responsive Settings*/
+        
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+            .layout,
+            .layout-position {
+                width: 280px !important;
+            }
+            .social-inner {
+                margin: 0 auto;
+                width: 100%;
+            }
+            .logo {
+                margin: 0 auto;
+            }
+            .block {
+                margin-right: 0!important;
+            }
+        }
+        
+        @media only screen and (min-device-width: 480px) and (max-device-width: 760px) {
+            .layout,
+            .layout-position {
+                width: 480px !important;
+            }
+            .social-inner {
+                margin: 0 auto;
+                width: 67%;
+            }
+        }
+        
+        @media only screen and (min-device-width: 760px) and (max-device-width: 1270px) {
+            .layout,
+            .layout-position {
+                width: 760px !important;
+            }
+            .social-inner {
+                margin: 0 auto;
+                width: 85%;
+            }
+        }
+        
+        @media only screen and (min-device-width: 1270px) and (max-device-width: 1920px) {
+            .layout,
+            .layout-position {
+                width: 1270px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <div class="layout">
+            <div class="header-inner">
+                <div class="logo"></div>
+            </div>
+        </div>
+    </section>
+    <section class="text-content">
+        <div class="layout-position">
+            <div class="text-content-inner">
+                <p class="main-text">Шановний абонент,</p>
+                <p>доступ до цього ресурсу заблоковано строком на три роки, згідно з указом Президента України №133/2017 про нові санкції проти Росії. Подбайте про те, щоб ваші персональні дані та інша особиста інформація була убезпечена.</p>
+                <p>Запрошуємо до активної спільноти Мережі Ланет у Facebook, яка налічує майже 80 000 шанувальників, більш ніж 2000 публікацій і близько 15000 відгуків про компанію. Сформованим за декілька років ком'юніті активно обговорюються найактуальніші
+                    події з життя провайдера та галузі телекомунікацій у цілому.</p>
+            </div>
+            <div class="text-content-button">
+                <a href="https://www.facebook.com/lanetua/">
+                    <button class="button">ПРИЄДНАТИСЯ</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="social-container">
+        <div class="color-overlay"></div>
+        <div class="layout-position">
+            <div class="social-inner">
+                <div class="block ukrnet">
+                    <a href="http://wiki.ukr.net/Freemail/Использование/Регистрация">
+                        <p class="title">Ukr.net</p>
+                        <img src="../../static.lanet.ua/images/block_ru/185x185_ukrnet.png" alt="">
+                        <p class="footer">Створити поштову скриньку</p>
+                    </a>
+                </div>
+
+                <div class="block edisk">
+                    <a href="http://edisk.ukr.net/">
+                        <p class="title">E-Disk</p>
+                        <img src="../../static.lanet.ua/images/block_ru/185x185_EDisc.png" alt="">
+                        <p class="footer">Користуватися <br> віртуальною флешкою</p>
+                    </a>
+                </div>
+
+                <div class="block google">
+                    <a href="https://support.google.com/mail/answer/56256">
+                        <p class="title">Google</p>
+                        <img src="../../static.lanet.ua/images/block_ru/185x185_Google.png" alt="">
+                        <p class="footer">Створити обліковий запис</p>
+                    </a>
+                </div>
+
+                <div class="block gmail">
+                    <a href="https://support.google.com/mail/answer/21289">
+                        <p class="title">Gmail</p>
+                        <img src="../../static.lanet.ua/images/block_ru/185x185_Gmail.png" alt="">
+                        <p class="footer">Налаштувати збір <br> пошти</p>
+                    </a>
+                </div>
+
+                <div class="block gdisk">
+                    <a href="https://support.google.com/drive/answer/2424384">
+                        <p class="title">Google Диск</p>
+                        <img src="../../static.lanet.ua/images/block_ru/185x185_GoogleDrive.png" alt="">
+                        <p class="footer">Працювати з Google Диском</p>
+                    </a>
+                </div>
+
+                <div class="block facebook">
+                    <a href="https://www.facebook.com/help/570785306433644">
+                        <p class="title">Facebook</p>
+                        <img src="../../static.lanet.ua/images/block_ru/185x185_F.png" alt="">
+                        <p class="footer">Створити обліковий запис</p>
+                    </a>
+                </div>
+
+                <div class="block fb">
+                    <a href="https://www.facebook.com/help/561688620598358">
+                        <p class="title">Фейсбук</p>
+                        <img src="../../static.lanet.ua/images/block_ru/185x185_Facebook.png" alt="">
+                        <p class="footer">Експорт контактів </p>
+                    </a>
+                </div>
+
+                <div class="block zillya">
+                    <a href="http://zillya.ua/antivirusna-laboratoriya">
+                        <p class="title">Zillya</p>
+                        <img src="../../static.lanet.ua/images/block_ru/185x185_Zillya.png" alt="">
+                        <p class="footer">Український антивірус</p>
+                    </a>
+                </div>
+
+                <div class="block soundcloud">
+                    <a href="https://soundcloud.com/">
+                        <p class="title">Soundcloud</p>
+                        <img src="../../static.lanet.ua/images/block_ru/185x185_Soundcloud.png" alt="">
+                        <p class="footer">Безкоштовно слухати музику</p>
+                    </a>
+                </div>
+
+                <div class="block deezer">
+                    <a href="https://www.deezer.com/">
+                        <p class="title">Deezer</p>
+                        <img src="../../static.lanet.ua/images/block_ru/185x185_Deezer.png" alt="">
+                        <p class="footer">Насолоджуватися музикою</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-space"></section>
+</body>
+
+
+
+<!-- Mirrored from cdn.connect.mail.ru/js/loader.js by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Dec 2018 14:47:03 GMT -->
+</html>
